@@ -1,0 +1,48 @@
+body {
+    margin: 5;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Changed to column for vertical alignment */
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #99c8f7, #7c92f5);
+    text-align: center;
+    position: relative; /* Add relative positioning for absolute elements */
+}
+
+.hidden {
+    display: none;
+}
+
+.choice {
+    background: #65a6e7;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.choice:hover {
+    background: #1667b9;
+}
+
+.press-text {
+    position: absolute; /* Use absolute positioning */
+    bottom: 20px; /* Position it near the bottom */
+    font-size: 18px; /* Increase font size */
+    color: #ffffff; /* Ensure it stands out against the background */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Add a shadow for better contrast */
+}
+
+.poem {
+    padding: 20px;
+}
+
